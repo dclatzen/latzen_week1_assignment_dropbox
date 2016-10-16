@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231380FB1DB1AF7A0078F8D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231380FA1DB1AF7A0078F8D5 /* AppDelegate.swift */; };
+		231380FD1DB1AF7A0078F8D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231380FC1DB1AF7A0078F8D5 /* ViewController.swift */; };
+		231381001DB1AF7A0078F8D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231380FE1DB1AF7A0078F8D5 /* Main.storyboard */; };
+		231381021DB1AF7A0078F8D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231381011DB1AF7A0078F8D5 /* Assets.xcassets */; };
+		231381051DB1AF7A0078F8D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231381031DB1AF7A0078F8D5 /* LaunchScreen.storyboard */; };
+		231381101DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313810F1DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxTests.swift */; };
+		2313811B1DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313811A1DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxUITests.swift */; };
+		231381291DB1B9570078F8D5 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231381281DB1B9570078F8D5 /* CreateAccountViewController.swift */; };
+		2313812B1DB1B9780078F8D5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313812A1DB1B9780078F8D5 /* SignInViewController.swift */; };
+		2313812D1DB1BF460078F8D5 /* CreateAccountChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313812C1DB1BF460078F8D5 /* CreateAccountChildViewController.swift */; };
+		2313812F1DB1BF590078F8D5 /* SignInChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313812E1DB1BF590078F8D5 /* SignInChildViewController.swift */; };
+		231381311DB1C7330078F8D5 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231381301DB1C7330078F8D5 /* TermsViewController.swift */; };
+		231381331DB1CD540078F8D5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231381321DB1CD540078F8D5 /* SettingsViewController.swift */; };
+		231381351DB1D78B0078F8D5 /* ExistingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231381341DB1D78B0078F8D5 /* ExistingPhotosViewController.swift */; };
+		231381391DB1EE010078F8D5 /* FavoritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231381381DB1EE010078F8D5 /* FavoritingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2313810C1DB1AF7A0078F8D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 231380EF1DB1AF7A0078F8D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 231380F61DB1AF7A0078F8D5;
+			remoteInfo = latzen_week1_assignment_dropbox;
+		};
+		231381171DB1AF7A0078F8D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 231380EF1DB1AF7A0078F8D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 231380F61DB1AF7A0078F8D5;
+			remoteInfo = latzen_week1_assignment_dropbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		231380F71DB1AF7A0078F8D5 /* latzen_week1_assignment_dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = latzen_week1_assignment_dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		231380FA1DB1AF7A0078F8D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		231380FC1DB1AF7A0078F8D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		231380FF1DB1AF7A0078F8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		231381011DB1AF7A0078F8D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		231381041DB1AF7A0078F8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		231381061DB1AF7A0078F8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2313810B1DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = latzen_week1_assignment_dropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2313810F1DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = latzen_week1_assignment_dropboxTests.swift; sourceTree = "<group>"; };
+		231381111DB1AF7A0078F8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231381161DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = latzen_week1_assignment_dropboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2313811A1DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = latzen_week1_assignment_dropboxUITests.swift; sourceTree = "<group>"; };
+		2313811C1DB1AF7A0078F8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231381281DB1B9570078F8D5 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		2313812A1DB1B9780078F8D5 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		2313812C1DB1BF460078F8D5 /* CreateAccountChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountChildViewController.swift; sourceTree = "<group>"; };
+		2313812E1DB1BF590078F8D5 /* SignInChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInChildViewController.swift; sourceTree = "<group>"; };
+		231381301DB1C7330078F8D5 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		231381321DB1CD540078F8D5 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		231381341DB1D78B0078F8D5 /* ExistingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingPhotosViewController.swift; sourceTree = "<group>"; };
+		231381381DB1EE010078F8D5 /* FavoritingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		231380F41DB1AF7A0078F8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231381081DB1AF7A0078F8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231381131DB1AF7A0078F8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231380EE1DB1AF7A0078F8D5 = {
+			isa = PBXGroup;
+			children = (
+				231380F91DB1AF7A0078F8D5 /* latzen_week1_assignment_dropbox */,
+				2313810E1DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxTests */,
+				231381191DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxUITests */,
+				231380F81DB1AF7A0078F8D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		231380F81DB1AF7A0078F8D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				231380F71DB1AF7A0078F8D5 /* latzen_week1_assignment_dropbox.app */,
+				2313810B1DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxTests.xctest */,
+				231381161DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		231380F91DB1AF7A0078F8D5 /* latzen_week1_assignment_dropbox */ = {
+			isa = PBXGroup;
+			children = (
+				231380FA1DB1AF7A0078F8D5 /* AppDelegate.swift */,
+				231380FC1DB1AF7A0078F8D5 /* ViewController.swift */,
+				231380FE1DB1AF7A0078F8D5 /* Main.storyboard */,
+				231381011DB1AF7A0078F8D5 /* Assets.xcassets */,
+				231381031DB1AF7A0078F8D5 /* LaunchScreen.storyboard */,
+				231381061DB1AF7A0078F8D5 /* Info.plist */,
+				231381281DB1B9570078F8D5 /* CreateAccountViewController.swift */,
+				2313812A1DB1B9780078F8D5 /* SignInViewController.swift */,
+				2313812C1DB1BF460078F8D5 /* CreateAccountChildViewController.swift */,
+				2313812E1DB1BF590078F8D5 /* SignInChildViewController.swift */,
+				231381301DB1C7330078F8D5 /* TermsViewController.swift */,
+				231381321DB1CD540078F8D5 /* SettingsViewController.swift */,
+				231381341DB1D78B0078F8D5 /* ExistingPhotosViewController.swift */,
+				231381381DB1EE010078F8D5 /* FavoritingViewController.swift */,
+			);
+			path = latzen_week1_assignment_dropbox;
+			sourceTree = "<group>";
+		};
+		2313810E1DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				2313810F1DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxTests.swift */,
+				231381111DB1AF7A0078F8D5 /* Info.plist */,
+			);
+			path = latzen_week1_assignment_dropboxTests;
+			sourceTree = "<group>";
+		};
+		231381191DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2313811A1DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxUITests.swift */,
+				2313811C1DB1AF7A0078F8D5 /* Info.plist */,
+			);
+			path = latzen_week1_assignment_dropboxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		231380F61DB1AF7A0078F8D5 /* latzen_week1_assignment_dropbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2313811F1DB1AF7A0078F8D5 /* Build configuration list for PBXNativeTarget "latzen_week1_assignment_dropbox" */;
+			buildPhases = (
+				231380F31DB1AF7A0078F8D5 /* Sources */,
+				231380F41DB1AF7A0078F8D5 /* Frameworks */,
+				231380F51DB1AF7A0078F8D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = latzen_week1_assignment_dropbox;
+			productName = latzen_week1_assignment_dropbox;
+			productReference = 231380F71DB1AF7A0078F8D5 /* latzen_week1_assignment_dropbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2313810A1DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231381221DB1AF7A0078F8D5 /* Build configuration list for PBXNativeTarget "latzen_week1_assignment_dropboxTests" */;
+			buildPhases = (
+				231381071DB1AF7A0078F8D5 /* Sources */,
+				231381081DB1AF7A0078F8D5 /* Frameworks */,
+				231381091DB1AF7A0078F8D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2313810D1DB1AF7A0078F8D5 /* PBXTargetDependency */,
+			);
+			name = latzen_week1_assignment_dropboxTests;
+			productName = latzen_week1_assignment_dropboxTests;
+			productReference = 2313810B1DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		231381151DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231381251DB1AF7A0078F8D5 /* Build configuration list for PBXNativeTarget "latzen_week1_assignment_dropboxUITests" */;
+			buildPhases = (
+				231381121DB1AF7A0078F8D5 /* Sources */,
+				231381131DB1AF7A0078F8D5 /* Frameworks */,
+				231381141DB1AF7A0078F8D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				231381181DB1AF7A0078F8D5 /* PBXTargetDependency */,
+			);
+			name = latzen_week1_assignment_dropboxUITests;
+			productName = latzen_week1_assignment_dropboxUITests;
+			productReference = 231381161DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		231380EF1DB1AF7A0078F8D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Myself;
+				TargetAttributes = {
+					231380F61DB1AF7A0078F8D5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					2313810A1DB1AF7A0078F8D5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 231380F61DB1AF7A0078F8D5;
+					};
+					231381151DB1AF7A0078F8D5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 231380F61DB1AF7A0078F8D5;
+					};
+				};
+			};
+			buildConfigurationList = 231380F21DB1AF7A0078F8D5 /* Build configuration list for PBXProject "latzen_week1_assignment_dropbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 231380EE1DB1AF7A0078F8D5;
+			productRefGroup = 231380F81DB1AF7A0078F8D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				231380F61DB1AF7A0078F8D5 /* latzen_week1_assignment_dropbox */,
+				2313810A1DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxTests */,
+				231381151DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		231380F51DB1AF7A0078F8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231381051DB1AF7A0078F8D5 /* LaunchScreen.storyboard in Resources */,
+				231381021DB1AF7A0078F8D5 /* Assets.xcassets in Resources */,
+				231381001DB1AF7A0078F8D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231381091DB1AF7A0078F8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231381141DB1AF7A0078F8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		231380F31DB1AF7A0078F8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2313812D1DB1BF460078F8D5 /* CreateAccountChildViewController.swift in Sources */,
+				231381391DB1EE010078F8D5 /* FavoritingViewController.swift in Sources */,
+				2313812F1DB1BF590078F8D5 /* SignInChildViewController.swift in Sources */,
+				2313812B1DB1B9780078F8D5 /* SignInViewController.swift in Sources */,
+				231381351DB1D78B0078F8D5 /* ExistingPhotosViewController.swift in Sources */,
+				231381291DB1B9570078F8D5 /* CreateAccountViewController.swift in Sources */,
+				231380FD1DB1AF7A0078F8D5 /* ViewController.swift in Sources */,
+				231380FB1DB1AF7A0078F8D5 /* AppDelegate.swift in Sources */,
+				231381311DB1C7330078F8D5 /* TermsViewController.swift in Sources */,
+				231381331DB1CD540078F8D5 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231381071DB1AF7A0078F8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231381101DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231381121DB1AF7A0078F8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2313811B1DB1AF7A0078F8D5 /* latzen_week1_assignment_dropboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2313810D1DB1AF7A0078F8D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 231380F61DB1AF7A0078F8D5 /* latzen_week1_assignment_dropbox */;
+			targetProxy = 2313810C1DB1AF7A0078F8D5 /* PBXContainerItemProxy */;
+		};
+		231381181DB1AF7A0078F8D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 231380F61DB1AF7A0078F8D5 /* latzen_week1_assignment_dropbox */;
+			targetProxy = 231381171DB1AF7A0078F8D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		231380FE1DB1AF7A0078F8D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231380FF1DB1AF7A0078F8D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		231381031DB1AF7A0078F8D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231381041DB1AF7A0078F8D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2313811D1DB1AF7A0078F8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2313811E1DB1AF7A0078F8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		231381201DB1AF7A0078F8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = latzen_week1_assignment_dropbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself.latzen-week1-assignment-dropbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		231381211DB1AF7A0078F8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = latzen_week1_assignment_dropbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself.latzen-week1-assignment-dropbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		231381231DB1AF7A0078F8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = latzen_week1_assignment_dropboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself.latzen-week1-assignment-dropboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/latzen_week1_assignment_dropbox.app/latzen_week1_assignment_dropbox";
+			};
+			name = Debug;
+		};
+		231381241DB1AF7A0078F8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = latzen_week1_assignment_dropboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself.latzen-week1-assignment-dropboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/latzen_week1_assignment_dropbox.app/latzen_week1_assignment_dropbox";
+			};
+			name = Release;
+		};
+		231381261DB1AF7A0078F8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = latzen_week1_assignment_dropboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself.latzen-week1-assignment-dropboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = latzen_week1_assignment_dropbox;
+			};
+			name = Debug;
+		};
+		231381271DB1AF7A0078F8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = latzen_week1_assignment_dropboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself.latzen-week1-assignment-dropboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = latzen_week1_assignment_dropbox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231380F21DB1AF7A0078F8D5 /* Build configuration list for PBXProject "latzen_week1_assignment_dropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2313811D1DB1AF7A0078F8D5 /* Debug */,
+				2313811E1DB1AF7A0078F8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2313811F1DB1AF7A0078F8D5 /* Build configuration list for PBXNativeTarget "latzen_week1_assignment_dropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231381201DB1AF7A0078F8D5 /* Debug */,
+				231381211DB1AF7A0078F8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231381221DB1AF7A0078F8D5 /* Build configuration list for PBXNativeTarget "latzen_week1_assignment_dropboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231381231DB1AF7A0078F8D5 /* Debug */,
+				231381241DB1AF7A0078F8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231381251DB1AF7A0078F8D5 /* Build configuration list for PBXNativeTarget "latzen_week1_assignment_dropboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231381261DB1AF7A0078F8D5 /* Debug */,
+				231381271DB1AF7A0078F8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 231380EF1DB1AF7A0078F8D5 /* Project object */;
+}
