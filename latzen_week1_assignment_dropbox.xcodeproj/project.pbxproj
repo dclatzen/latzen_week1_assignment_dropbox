@@ -22,6 +22,7 @@
 		231381331DB1CD540078F8D5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231381321DB1CD540078F8D5 /* SettingsViewController.swift */; };
 		231381351DB1D78B0078F8D5 /* ExistingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231381341DB1D78B0078F8D5 /* ExistingPhotosViewController.swift */; };
 		231381391DB1EE010078F8D5 /* FavoritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231381381DB1EE010078F8D5 /* FavoritingViewController.swift */; };
+		23AC4DC21DB480E2009AAEBB /* PdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AC4DC11DB480E1009AAEBB /* PdfViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		231381321DB1CD540078F8D5 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		231381341DB1D78B0078F8D5 /* ExistingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingPhotosViewController.swift; sourceTree = "<group>"; };
 		231381381DB1EE010078F8D5 /* FavoritingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritingViewController.swift; sourceTree = "<group>"; };
+		23AC4DC11DB480E1009AAEBB /* PdfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PdfViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				231381321DB1CD540078F8D5 /* SettingsViewController.swift */,
 				231381341DB1D78B0078F8D5 /* ExistingPhotosViewController.swift */,
 				231381381DB1EE010078F8D5 /* FavoritingViewController.swift */,
+				23AC4DC11DB480E1009AAEBB /* PdfViewController.swift */,
 			);
 			path = latzen_week1_assignment_dropbox;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				231380FB1DB1AF7A0078F8D5 /* AppDelegate.swift in Sources */,
 				231381311DB1C7330078F8D5 /* TermsViewController.swift in Sources */,
 				231381331DB1CD540078F8D5 /* SettingsViewController.swift in Sources */,
+				23AC4DC21DB480E2009AAEBB /* PdfViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

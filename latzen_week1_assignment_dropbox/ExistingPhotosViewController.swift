@@ -14,7 +14,8 @@ class ExistingPhotosViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        existingPhotosScrollView.contentSize = CGSize(width: 375, height: 700)
+        existingPhotosScrollView.contentSize = CGSize(width: 375, height: 1100)
+    self.navigationItem.title="Getting Started.pdf"
         // Do any additional setup after loading the view.
     }
     
