@@ -9,7 +9,49 @@
 import UIKit
 
 class CreateAccountChildViewController: UIViewController {
+    
+    
+    // Pasword strength indicator
+    let weakImage = UIImage(named: "signup_1")
+    let soSoImage = UIImage(named: "signup_2")
+    let goodImage = UIImage(named: "signup_3")
+    let greatImage = UIImage(named: "signup_4")
+    
+    @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var passwordStrengthImage: UIImageView!
+    
+    @IBAction func editedPassword(_ sender: AnyObject) {
+        let characterCount = passwordField.text?.characters.count
+        
+        if characterCount! < 1 {
+            print ("no input")
+            passwordStrengthImage.image = nil
+        }
+        else if characterCount! < 4 {
+            print ("weak password")
+            passwordStrengthImage.image = weakImage
+        } else if characterCount! < 6 {
+            print ("so-so password")
+            passwordStrengthImage.image = soSoImage
+        } else if characterCount! < 8 {
+            print ("good password")
+            passwordStrengthImage.image = goodImage
+        } else {
+            print("great password!")
+            passwordStrengthImage.image = greatImage
+        }
+        
+    }
 
+    // Keyboard down
+    @IBAction func didTapOutsideTextField(_ sender: AnyObject) {
+        view.endEditing(true)
+    }
+    // Back button
+    @IBAction func didPressBackButton(_ sender: UIBarButtonItem) {
+        navigationController!.popViewController(animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
