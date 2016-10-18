@@ -26,15 +26,20 @@ The following **optional** features are implemented:
 * [x] User can view actual Dropbox Terms of Service in a web view.
 * [x] User sees updated password strength as they type in password field.
 
-## Video Walkthrough 
-
-Here's a walkthrough of implemented user stories:
-
-![Video Walkthrough](latzen_tip_calculator_recording_2.gif)
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+Additionally:
+* [] The "Create" button activates based on password input
 
 ## Notes
 Challenges:
 Spent too long on Milestone #8 (favoriting). After completing the other steps and learning from them, I could probably do it now.
+
+## Video Walkthrough 
+
+Here's a walkthrough of implemented user stories:
+
+![Video Walkthrough](latzen_week1_assignment_dropbox.gif)
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+
 
