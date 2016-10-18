@@ -28,6 +28,7 @@ class SignInChildViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view.
         
         initialY = signInSuperView.frame.origin.y
         offset = -50
@@ -42,7 +43,8 @@ class SignInChildViewController: UIViewController {
             self.signInSuperView.frame.origin.y = self.initialY
         }
         
-        // Do any additional setup after loading the view.
+        
+        
     }
 
     

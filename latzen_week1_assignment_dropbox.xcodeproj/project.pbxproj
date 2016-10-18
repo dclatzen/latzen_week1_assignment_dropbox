@@ -23,6 +23,7 @@
 		231381351DB1D78B0078F8D5 /* ExistingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231381341DB1D78B0078F8D5 /* ExistingPhotosViewController.swift */; };
 		231381391DB1EE010078F8D5 /* FavoritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231381381DB1EE010078F8D5 /* FavoritingViewController.swift */; };
 		23AC4DC21DB480E2009AAEBB /* PdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AC4DC11DB480E1009AAEBB /* PdfViewController.swift */; };
+		44FD72AD1DB591290060620A /* ForgotPwViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FD72AC1DB591290060620A /* ForgotPwViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		231381341DB1D78B0078F8D5 /* ExistingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingPhotosViewController.swift; sourceTree = "<group>"; };
 		231381381DB1EE010078F8D5 /* FavoritingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritingViewController.swift; sourceTree = "<group>"; };
 		23AC4DC11DB480E1009AAEBB /* PdfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PdfViewController.swift; sourceTree = "<group>"; };
+		44FD72AC1DB591290060620A /* ForgotPwViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPwViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				231380FA1DB1AF7A0078F8D5 /* AppDelegate.swift */,
 				231380FC1DB1AF7A0078F8D5 /* ViewController.swift */,
 				231380FE1DB1AF7A0078F8D5 /* Main.storyboard */,
+				44FD72AC1DB591290060620A /* ForgotPwViewController.swift */,
 				231381011DB1AF7A0078F8D5 /* Assets.xcassets */,
 				231381031DB1AF7A0078F8D5 /* LaunchScreen.storyboard */,
 				231381061DB1AF7A0078F8D5 /* Info.plist */,
@@ -292,6 +295,7 @@
 				2313812B1DB1B9780078F8D5 /* SignInViewController.swift in Sources */,
 				231381351DB1D78B0078F8D5 /* ExistingPhotosViewController.swift in Sources */,
 				231381291DB1B9570078F8D5 /* CreateAccountViewController.swift in Sources */,
+				44FD72AD1DB591290060620A /* ForgotPwViewController.swift in Sources */,
 				231380FD1DB1AF7A0078F8D5 /* ViewController.swift in Sources */,
 				231380FB1DB1AF7A0078F8D5 /* AppDelegate.swift in Sources */,
 				231381311DB1C7330078F8D5 /* TermsViewController.swift in Sources */,

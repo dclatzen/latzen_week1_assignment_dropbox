@@ -10,16 +10,30 @@ import UIKit
 
 class TermsViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    @IBAction func didPressDone(_ sender: AnyObject) {
+    
+    @IBAction func didPressDoneButton(_ sender: AnyObject) {
         dismiss(animated: true, completion: nil)
     }
+    @IBOutlet weak var termsWebView: UIWebView!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Set up the WebView
+        
+        // Set up a variable to contain the URL
+        let url = "https://www.dropbox.com/terms?mobile=1"
+        
+        // Convert the URL String to a NSURL object
+        let requestUrl = NSURL(string:url)
+        
+        // Place the URL in a URL Request
+        let request = NSURLRequest(url: requestUrl as! URL)
+        
+        //Load request into a WebView
+        termsWebView.loadRequest(request as URLRequest)
+        
+    }
     
 
 }

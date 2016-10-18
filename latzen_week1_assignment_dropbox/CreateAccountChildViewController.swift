@@ -19,25 +19,31 @@ class CreateAccountChildViewController: UIViewController {
     
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var passwordStrengthImage: UIImageView!
+    @IBOutlet weak var createButton: UIBarButtonItem!
     
     @IBAction func editedPassword(_ sender: AnyObject) {
         let characterCount = passwordField.text?.characters.count
         
         if characterCount! < 1 {
             print ("no input")
+            createButton.isEnabled = false
             passwordStrengthImage.image = nil
         }
         else if characterCount! < 4 {
             print ("weak password")
+            createButton.isEnabled = true
             passwordStrengthImage.image = weakImage
         } else if characterCount! < 6 {
             print ("so-so password")
+            createButton.isEnabled = true
             passwordStrengthImage.image = soSoImage
         } else if characterCount! < 8 {
             print ("good password")
+            createButton.isEnabled = true
             passwordStrengthImage.image = goodImage
         } else {
             print("great password!")
+            createButton.isEnabled = true
             passwordStrengthImage.image = greatImage
         }
         
