@@ -27,11 +27,11 @@ The following **optional** features are implemented:
 * [x] User sees updated password strength as they type in password field.
 
 Additionally:
-* [] The "Create" button activates based on password input
+* [x] The "Create" button activates based on password input
 
 ## Notes
 Challenges:
-Spent too long on Milestone #8 (favoriting). After completing the other steps and learning from them, I could probably do it now.
+Spent too long on an ill-fated attempt to achieve Milestone #8 (favoriting). After completing the other steps and learning from them, I could probably do it now.
 
 ## Video Walkthrough 
 
