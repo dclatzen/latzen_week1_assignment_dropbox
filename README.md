@@ -35,7 +35,7 @@ Spent too long on an ill-fated attempt to achieve Milestone #8 (favoriting). Aft
 
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented user stories (note: the tabs do have labels like "Files" "Settings" etc. I couldn't figure out how to get them into the licecap frame):
 
 ![Video Walkthrough](latzen_week1_assignment_dropbox.gif)
 
